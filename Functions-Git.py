@@ -2,7 +2,6 @@
 # Dylan Despins
 # 2.6.19
 
-'''
 name = input("What is your name: ")
 
 def greeting():
@@ -10,12 +9,11 @@ def greeting():
     print("Nice to meet you!")
 
 greeting()
-'''
-
 
 # 4.13.4: Functions and Variables
 # Dylan Despins
 # 2.14.19
+
 
 x = 43
 
@@ -25,3 +23,25 @@ def print_something():
 
 print_something()
 print(x)
+
+
+# 4.13.5: Functions and Variables - Part 2
+# Dylan Despins
+# 2.14.19
+
+my_variable = 3.1465
+
+def something():
+    print(my_variable + 10)
+
+something()
+
+# 4.13.6: Functions and Variables, Part Three
+# Dylan Despins
+# 2/18/19
+
+def print_number(x):
+    print(str(x))
+
+print_number(12)
+print_number('\n' + 'Hello World')
