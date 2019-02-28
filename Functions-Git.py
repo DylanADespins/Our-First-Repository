@@ -76,3 +76,13 @@ def print_multiple_times(string,times):
         print(string)
 
 print_multiple_times('\n''yeah',10)
+
+# 4.14.7: Print Multiple Times
+# Dylan Despins
+# 2/19/19
+
+def print_multiple_times(string,times):
+    for i in range(times):
+        print(string)
+
+print_multiple_times('\n''yeah',10)
