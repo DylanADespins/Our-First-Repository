@@ -54,3 +54,15 @@ def name_and_age(name, age):
     print('\n' 'Hi, my name is ', name, 'and I am ',str(age), ' years old. ')
 
 name_and_age('Dylan' , 15)
+
+# 4.14.5: Default Parameters Values
+# Dylan Despins
+# 2/19/18
+
+def print_two_numbers(x,y=20):
+
+    print('First number: ',x)
+    print('Second number: ',y)
+
+print_two_numbers(5)
+print_two_numbers(23,28)
