@@ -67,7 +67,6 @@ def print_two_numbers(x,y=20):
 print_two_numbers(5)
 print_two_numbers(23,28)
 
-
 # 4.14.7: Print Multiple Times
 # Dylan Despins
 # 2/19/19
