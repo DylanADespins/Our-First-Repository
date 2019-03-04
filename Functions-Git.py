@@ -92,3 +92,13 @@ def print_multiple_times(string,times):
         print(string)
 
 print_multiple_times('\n''yeah',10)
+
+# 4.16.3: Enter a Number
+# Dylan Despins
+# 2/20/19
+try:
+    my_num = int(input('Enter an integer: '))
+    print('Your number is: ' + str(my_num))
+
+except ValueError:
+    print('That was not an integer')
