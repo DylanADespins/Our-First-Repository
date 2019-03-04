@@ -86,3 +86,9 @@ def print_multiple_times(string,times):
         print(string)
 
 print_multiple_times('\n''yeah',10)
+
+def print_multiple_times(string,times):
+    for i in range(times):
+        print(string)
+
+print_multiple_times('\n''yeah',10)
