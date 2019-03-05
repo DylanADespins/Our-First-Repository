@@ -103,6 +103,7 @@ try:
 except ValueError:
     print('That was not an integer')
 
+<<<<<<< HEAD
 # 4.16.4: Enter Name and Age
 # Dylan Despins
 # 2/20/19
@@ -115,3 +116,24 @@ except ValueError:
 
 print('\n' 'Name:', name)
 print(name, 'your age is:', str(age))
+=======
+# 4.16.6: Temperature Converter
+# Dylan Despins
+# 2/20/19
+def celcius_to_fahrenheit(celcius):
+    return (celcius *1.8 + 32)
+
+def fahrenheit_to_celcius(fahrenheit):
+    return (fahrenheit - 32) / 1.8
+
+try:
+    c = float(input('Enter a temp in Celcius:'))
+    print('In fahrenheit:', round(celcius_to_fahrenheit(c), 2))
+
+    f = float(input('Enter a temp in Fahrenheit: '))
+    print('In Celcius:', round(fahrenheit_to_celcius(f), 2))
+
+
+except ValueError:
+    print('You must enter float')
+>>>>>>> Temperature-Converter
